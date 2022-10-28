@@ -23,5 +23,5 @@
 6. Change your directory to HelloWorld
    ``` cd HelloWorld```
 7. Install web dependencies to execute the app in browser
-   ``` npm i react-native-web --legacy-peer-deps
-       npm i react-dom --legacy-peer-deps ```
+   ``` npm i react-native-web --legacy-peer-deps ```
+   ``` npm i react-dom --legacy-peer-deps ```
