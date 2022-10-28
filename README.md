@@ -1,6 +1,6 @@
 # HourOfCode
 
-## Step-by-step
+## Step-by-step Intro
 1. Install Node.js
    - https://nodejs.org/
    - Download LTS version
@@ -23,5 +23,20 @@
 6. Change your directory to HelloWorld
    ``` cd HelloWorld```
 7. Install web dependencies to execute the app in browser
+
 ``` npm i react-native-web --legacy-peer-deps ```
 ``` npm i react-dom --legacy-peer-deps ```
+
+8. Start your project
+   - Confirm you are in your project directory "HelloWorld"
+   - Execute ``` expo start ```
+   - After message "Metro Bundler Started" press "w" to open your app in your browser
+
+## Extra commands
+- Install navigation
+```
+npm install @react-navigation/native --legacy-peer-deps
+npm install @react-navigation/native-stack --legacy-peer-deps
+npm install react-native-screens --legacy-peer-deps
+npm install react-native-safe-area-context --legacy-peer-deps
+```
