@@ -7,7 +7,7 @@ const LoginScreen = ({ navigation, route }) => {
     const [text, setText] = useState('');
     return (
         <View style={generalStyles.container}>
-            <Image source={logo} style={styles.logo}/>
+            <Image source={{uri: "https://www.accenture.com/t20180820T081710Z__w__/ca-en/_acnmedia/Accenture/Dev/Redesign/Acc_Logo_Black_Purple_RGB.png"}} style={styles.logo}/>
             <Text>Login Screen</Text>
             <TextInput style={styles.input}
                 value={text}
@@ -35,8 +35,9 @@ const styles = StyleSheet.create({
         backgroundColor: "#ffffff"
     },
     logo: {
-        width: 300,
-        height: 150
+        width: 200,
+        height: 100,
+        resizeMode: "center",
     }
 });
 
